@@ -2,11 +2,11 @@
 apt-get update
 apt-get install -y curl git jq
 
-useradd -m user
-su user
+useradd -m omar
+su omar
 
 # install go
-VERSION='1.14'
+VERSION='1.19.1'
 OS='linux'
 ARCH='amd64'
 
